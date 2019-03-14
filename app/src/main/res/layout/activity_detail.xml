@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:textSize="18pt"
+        android:text="Name: "
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_year"
+        android:layout_width="wrap_content"
+        android:textSize="18pt"
+        android:text="Dob: "
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:textSize="18pt"
+        android:text="Add: "
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:textSize="18pt"
+        android:text="Email: "
+        android:layout_height="wrap_content" />
+</LinearLayout>

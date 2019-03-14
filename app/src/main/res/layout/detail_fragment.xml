@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_fname"
+        android:layout_width="wrap_content"
+        android:textSize="18pt"
+        android:text="Name: "
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_fyear"
+        android:layout_width="wrap_content"
+        android:textSize="18pt"
+        android:text="Dob: "
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_faddress"
+        android:layout_width="wrap_content"
+        android:textSize="18pt"
+        android:text="Add: "
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_femail"
+        android:layout_width="wrap_content"
+        android:textSize="18pt"
+        android:text="Email: "
+        android:layout_height="wrap_content" />
+</LinearLayout>

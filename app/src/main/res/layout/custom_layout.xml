@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/cus_img"
+        android:layout_width="wrap_content"
+        android:src="@drawable/iconfinder_3_3561858"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/cus_tv"
+        android:textSize="18pt"
+        android:text="AAA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
